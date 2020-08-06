@@ -32,7 +32,7 @@ public class FindAllLinks {
 	@Test
 	public void findingAllLinksOnGoogle() throws InterruptedException {
 		
-		driver.get("https:www.google.com");
+		driver.get("https://www.google.com");
 		
 		Thread.sleep(3000);
 		

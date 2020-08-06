@@ -11,15 +11,15 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ToolsQAWindow {
 
 	WebDriver driver;
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "D:\\Selenium 3.9.1\\resources\\chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver", "D:\\Selenium 3.9.1\\resources\\geckodriver.exe");
+		driver = new FirefoxDriver();
 	}
 
 	@After
